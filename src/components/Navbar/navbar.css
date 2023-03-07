@@ -1,0 +1,23 @@
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    /* position: fixed;
+    top: 0; */
+}
+.leftNavbar{
+    font-size: x-large;
+    font-weight: bold;
+}
+.darkMode{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}

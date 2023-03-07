@@ -1,0 +1,128 @@
+
+section{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.tabElement{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4em;
+    justify-content: space-between;
+    color: black;
+
+}
+.tabElement a{
+    text-decoration: none;
+}
+.country{
+    width: 230px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.2);
+}
+.country a{
+    text-decoration: none !important;
+}
+.imgCountry{
+height: 35%;
+width: 100%;
+}
+.imgCountry img{
+    width: 100%;
+    height: 100%;
+}
+.infoCountry{
+    padding-left: 1em;
+    color: black;
+    pointer-events: none;
+    text-decoration: none !important;
+}
+.infoCountry a{
+    text-decoration: none !important;
+}
+select{
+  border:none;
+  padding: 15px 20px;
+  border-radius:5px;
+  
+}
+.inputContainer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 2em;
+padding-bottom: 2em;
+
+}
+select:focus{
+  outline:none;
+}
+.input{
+    background-color: white;
+    height: 50px;
+    width: 30em;
+    display: flex;
+    align-items: center;
+}
+.input input{
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+.input i{
+    padding-right: 2em;
+    padding-left: 2em;
+}
+.input:focus{
+    outline: transparent;
+    border: none;
+}
+
+/* ----- DROPDOWN ----- */
+
+.rightInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    height: 3em;
+    width: 110px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 0em 1em;
+    margin-left: 460px;
+
+    box-shadow: 0px 3px 7px 0px grey;
+    box-shadow: 0px 3px 5px 0px rgb(184, 183, 183);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    background-color: white;
+    border-radius: 5px;
+    min-width: 140px;
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.2);
+    padding: 5px 3px;
+    z-index: 1;
+    top: 150px;
+}
+
+.dropdown-content p {
+    margin: 0;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.rightInput:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content p:hover {
+    background-color: rgb(0, 55, 255);
+    background-color: #2596be;
+    color: white;
+    border-radius: 5px;
+}

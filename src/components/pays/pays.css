@@ -1,0 +1,74 @@
+.paysDiv{
+    margin-top: 3em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.paysDivv{
+    height: 100vh;
+}
+.backBtn button{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+.containerPaysDiv{
+    display: flex;
+    margin-top: 3em;
+    width: 100%;
+    justify-content: space-between;
+}
+.hautInfos{
+    display: flex;
+    gap: 2em;
+    width: 100%;
+    /* align-items: center;
+    justify-content: center; */
+}
+.basInfos{
+    display: flex;
+    gap: 5px;
+    width: 30em;
+    flex-wrap: wrap;
+}
+.drapeauPays img{
+    width: 100%;
+    height: 100%;
+}
+.drapeauPays{
+    width: 50%;
+}
+.hautInfosTxt{
+    width: 100%;
+}
+.infoPays{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 1em;
+}
+.separationHaut,.separationBas{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.border{
+    background-color: white;
+    border: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border p{
+    margin: 0;
+    padding: 0;
+}

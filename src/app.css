@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+.darkModeMode{
+    background-color: rgb(0, 0, 0) !important;
+    color: white !important;
+}
+.darkModeBorder{
+    background-color: rgb(0, 0, 0) !important;
+    color: white !important;
+    border: white solid 2px;
+}
+.darkModeBtn{
+    background-color: white;
+    color: black;
+}
+.body{
+    background-color: #F5F5F5;
+    margin: 0;
+}
