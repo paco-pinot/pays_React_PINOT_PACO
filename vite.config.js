@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base:'/paco-pinot-pays/',
+  base:'/pays_React_PINOT_PACO/',
   plugins: [react()],
 })
