@@ -4,7 +4,7 @@
     margin-right: 5%;
 }
 .paysDivv{
-    height: 100vh;
+    height: 100dvh;
 }
 .backBtn button{
     background-color: white;
@@ -71,4 +71,40 @@
 .border p{
     margin: 0;
     padding: 0;
+}
+
+/* ALL  */
+@media (max-width: 800px){
+.containerPaysDiv{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.infoPays{
+    margin-top: 2em ;
+
+}
+.hautInfos{
+    width: auto;
+}
+ .hautInfos{
+    flex-direction: column;
+    gap: 1em;
+
+ }
+    .basInfos{
+        width: auto;
+    }
+}
+/* TABLETTES */
+@media (min-width: 701px) and (max-width: 1000px) {
+
+}
+/* TELEPHONE */
+@media (max-width: 700px){
+    .infoPays{
+        align-items: center;
+        justify-content: center;
+    }
+
 }

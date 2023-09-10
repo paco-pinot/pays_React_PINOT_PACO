@@ -69,7 +69,7 @@ function Main(props) {
                                 .filter((fff)=>{return fff.region.includes(regionSelected)})
                                 .map((element)=>{
                                     return(
-                                        <Link  to={"/pays"}>
+                                        <Link  to={`/pays/${element.name.common}`}>
                                             <div className={props.DarkMode ===true ? "darkModeBorder country" : "country" } onClick={()=>{props.setpaysChoisi(element)}}>
                                                 <div className="imgCountry">
                                                     <img src={element.flags.svg} alt={element.flags.alt}/>

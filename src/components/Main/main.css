@@ -1,8 +1,12 @@
+body{
+    margin: 0;
+}
 
 section{
     margin-left: 5%;
     margin-right: 5%;
 }
+
 .tabElement{
     display: flex;
     flex-wrap: wrap;
@@ -60,10 +64,14 @@ select:focus{
 .input{
     background-color: white;
     height: 50px;
-    width: 30em;
+    width: 35vw;
     display: flex;
     align-items: center;
+    outline: none;
 }
+input:focus {
+    outline: none;
+  }
 .input input{
     border: none;
     height: 100%;
@@ -125,4 +133,36 @@ select:focus{
     background-color: #2596be;
     color: white;
     border-radius: 5px;
+}
+/* ALL  */
+@media (max-width: 800px){
+    .rightInput{
+        margin-left: 0;
+    }
+    .input{
+        width: 80%;
+    }
+    .tabElement{
+        justify-content: center;
+    }
+    
+}
+/* TABLETTES */
+@media (min-width: 701px) and (max-width: 1000px) {
+
+}
+/* TELEPHONE */
+@media (max-width: 700px){
+    .inputContainer{
+        flex-direction: column-reverse;
+        align-items: baseline;
+        gap: 10px;
+    }
+    .input{
+        width: 100%;
+    }
+
+    .country{
+        height: 280px;
+    }
 }
