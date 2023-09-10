@@ -1,6 +1,6 @@
 # pays_React_PINOT_PACO
 
-This a React application that allows you to discover information about countries around the world. You can sort countries by continent and use a search bar to quickly find the countries you're interested in.
+This is a responsive React application that allows you to discover information about countries around the world. You can sort countries by continent and use a search bar to quickly find the countries you're interested in.
 
 ## Overview
 
