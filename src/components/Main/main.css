@@ -10,8 +10,9 @@ section{
 .tabElement{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     gap: 4em;
-    justify-content: space-between;
+    justify-content: center;
     color: black;
 
 }
