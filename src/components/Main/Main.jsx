@@ -25,8 +25,7 @@ function Main(props) {
                     <i className="fa-solid fa-magnifying-glass"></i>
                     {/* <input onChange={(e)=>{recherche(e)}} placeholder=" Search for a country" type="search" /> */}
                     {/* <input onInput={(e) => recherche(e)} placeholder="Search for a country" type="search" /> */}
-                    {/* <input onKeyDown={(e) => recherche(e)} placeholder="Search for a country" type="search" /> */}
-                    <input onBlur={() => recherche()} placeholder="Search for a country" type="search" />
+                    <input onKeyDown={(e) => recherche(e)} placeholder="Search for a country" type="search" />
                 </div>
                 <div className="continent">
                 
