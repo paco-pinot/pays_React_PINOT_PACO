@@ -1,5 +1,6 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { useState,useEffect } from 'react';
+import Error from "./components/Error/Error"
 import Navbar from "./components/Navbar/Navbar"
 import Main from "./components/Main/Main"
 import Pays from './components/pays/Pays';
@@ -33,6 +34,10 @@ function App() {
         {
             path:"/pays/:id",
             element: <Pays DarkMode={DarkMode} setDarkMode={setDarkMode} sortedData= {sortedData} paysChoisi={paysChoisi} data={data} />,
+        },
+        {
+            path: '*',
+            element: <Error />,
         },
     ])
     return (

@@ -6,6 +6,10 @@
 .paysDivv{
     height: 100dvh;
 }
+.backBtn button:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
 .backBtn button{
     background-color: white;
     border: none;
@@ -13,6 +17,8 @@
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 5px;
+    cursor: pointer;
+
 }
 .containerPaysDiv{
     display: flex;
@@ -39,6 +45,7 @@
 }
 .drapeauPays{
     width: 50%;
+    height: 50dvh;
 }
 .hautInfosTxt{
     width: 100%;
@@ -72,7 +79,10 @@
     margin: 0;
     padding: 0;
 }
-
+.border:hover{
+    transform: scale(1.05);
+    transition: .3s;
+}
 /* ALL  */
 @media (max-width: 800px){
 .containerPaysDiv{

@@ -20,7 +20,9 @@ function Pays(props) {
   }
   let currencies
   for (let elem in countryPicked.currencies) {
-    currencies=elem
+   
+      currencies=elem
+
   }
   let borderCountries = props.data.filter(country => countryPicked.borders ? countryPicked.borders.includes(country.cca3) : "").map(country => country.name.common);
 
@@ -63,7 +65,7 @@ function Pays(props) {
                 <b>Top Level Domain</b> : <span>{countryPicked.tld}</span>
                 </div>
                 <div className="hautInfosTxt">
-                <b>Currencies</b> : <span>{countryPicked.currencies[currencies].name}</span>
+                <b>Currencies</b> : <span>{countryPicked.currencies ? countryPicked.currencies[currencies].name : ''}</span>
                 </div>
                 <div className="hautInfosTxt">
                  <b>Languages</b>  : {

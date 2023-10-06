@@ -1,7 +1,6 @@
 import Navbar from "../Navbar/Navbar";
 import "./main.css"
 import { useState, useEffect } from "react";
-
 import { Link } from "react-router-dom";
 function Main(props) {
     let body = document.body
