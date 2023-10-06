@@ -22,8 +22,9 @@ function Main(props) {
         <section className={props.DarkMode ===true ? "darkModeMode" : "" }>
             <div className="inputContainer">
                 <div className={props.DarkMode ===true ? "darkModeMode input" : "input" }>
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <input onChange={(e)=>{recherche(e)}} placeholder=" Search for a country" type="search" />
+                    <i className="fa-solid fa-magnifying-glass"></i>
+                    {/* <input onChange={(e)=>{recherche(e)}} placeholder=" Search for a country" type="search" /> */}
+                    <input onInput={(e) => recherche(e)} placeholder="Search for a country" type="search" />
                 </div>
                 <div className="continent">
                 
