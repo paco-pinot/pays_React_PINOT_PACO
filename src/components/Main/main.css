@@ -165,5 +165,6 @@ input:focus {
 
     .country{
         height: 280px;
+        width: 70vw;
     }
 }
